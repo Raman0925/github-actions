@@ -1,0 +1,19 @@
+name: CI for Linting
+
+on: push
+  
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a script
+        run: echo "Hello, world!"
+        
+        name: List and Read Files
+        run: |
+          ls -la
+          cat README.md
+
+      8i
+        
